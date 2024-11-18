@@ -141,12 +141,21 @@ Order order1 = masterorderlist.newOrder(customerprofile4,salespersonprofile );
 OrderItem oi1 = order1.newOrderItem(products1p1,18000,1);
 OrderItem oi2 = order1.newOrderItem(products1p2,19500,4);
 OrderItem oi3 = order1.newOrderItem(products1p3, 35000, 1);
+OrderItem oi4 = order1.newOrderItem(products1p4, 405000, 1);
+OrderItem oi5 = order1.newOrderItem(products1p5, 3050000, 1);
+OrderItem oi6 = order1.newOrderItem(products1p6, 90000, 1);
+OrderItem oi7 = order1.newOrderItem(products1p7, 5600, 1);
+OrderItem oi8 = order1.newOrderItem(products1p8, 55000, 1);
 
-//do it for all 8 items and 3 orders by same user
 Order order2 = masterorderlist.newOrder(customerprofile4,salespersonprofile );
 OrderItem oi2_1 = order2.newOrderItem(products3p1,18000,2);
 OrderItem oi2_2 = order2.newOrderItem(products3p2,195200,3);
 OrderItem oi2_3 = order2.newOrderItem(products3p3, 450000, 1);
+OrderItem oi2_4 = order2.newOrderItem(products3p4, 450000, 1);
+OrderItem oi2_5 = order2.newOrderItem(products3p5, 450000, 1);
+OrderItem oi2_6 = order2.newOrderItem(products3p6, 450000, 1);
+OrderItem oi2_7 = order2.newOrderItem(products3p7, 450000, 1);
+OrderItem oi2_8 = order2.newOrderItem(products3p8, 450000, 1);
 
  ProductSummary ps = new ProductSummary(products1p1);
 /*
