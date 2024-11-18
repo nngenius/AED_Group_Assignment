@@ -13,7 +13,7 @@ import model.Personnel.Profile;
 
 /**
  *
- * @author kal bugrara
+ * @author Nidhi
  */
 public class SalesPersonProfile extends Profile {
     ArrayList<Order> salesorders;
