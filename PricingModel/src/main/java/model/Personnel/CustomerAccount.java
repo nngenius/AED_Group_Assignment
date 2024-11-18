@@ -10,5 +10,6 @@ package model.Personnel;
  * @author kal bugrara
  */
 public class CustomerAccount {
-    
+    //Customer c;
+
 }
